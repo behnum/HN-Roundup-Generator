@@ -1,3 +1,9 @@
+# Custom rules
+hn-env
+test_*
+report.md
+chart.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
