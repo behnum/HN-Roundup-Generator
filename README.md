@@ -4,9 +4,16 @@
 
 HN-Roundup-Generator:
 
-This project aims to utilize Python to create a semi-automated system that extracts a certain number of headlines from the Hacker News website and performs Sentiment Analysis on them to ensure that only the most relevant stories, according to user preferences, are displayed.
+This simple project aims to utilize Python to create a semi-automated system that extracts a certain number of headlines from the Hacker News website and performs Sentiment Analysis on them to ensure that only the most relevant stories, according to user preferences, are displayed.
 
-![](process-workflow.png)
+## Usage
+
+```bash
+python3 main.py
+```
+
+![](sc1.png)
+![](sc2.png)
 
 ## Options dictionary
 
@@ -38,4 +45,10 @@ This project aims to utilize Python to create a semi-automated system that extra
 | time          | To calculate how long it takes for the process to finish.                                        |
 | tqdm          | A popular package to turn loops into smart progress meters.                                      |
 
+![](process-workflow.png)
+
 ![](screenshot-report.jpg)
+
+## License
+
+The code is licensed under the [MIT License](LICENSE). See the data's [LICENSE](https://github.com/behnum/HN-Roundup-Generator/blob/main/LICENSE) file for more information.
